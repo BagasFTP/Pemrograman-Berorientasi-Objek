@@ -1,0 +1,9 @@
+public class Tugas5 {
+    public static void main(String[] args) {
+        Bola bola = new Bola();
+        bola.setRadius(7);
+        bola.computeAndSetVolume();
+        
+        System.out.println("Volume Bola: " + bola.getVolume());
+    }
+}
